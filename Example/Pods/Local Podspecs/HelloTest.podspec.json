@@ -1,0 +1,27 @@
+{
+  "name": "HelloTest",
+  "version": "0.1.0",
+  "summary": "A short description of HelloTest.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/HadesSura/HelloTest",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "HadesSura": "1905058100@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/HadesSura/HelloTest.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HelloTest/Classes/**/*",
+  "resource_bundles": {
+    "HelloTest": [
+      "HelloTest/Assets/*.png"
+    ]
+  }
+}

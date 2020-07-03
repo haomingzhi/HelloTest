@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - HelloTest (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - HelloTest (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  HelloTest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  HelloTest: 62a57bf9c081621eb9a436cb0230d9dc7be38bb3
+
+PODFILE CHECKSUM: fb2b0d3b71a36fa84e7467296c75e88ecbd59327
+
+COCOAPODS: 1.9.1
